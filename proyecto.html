@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="proyect.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    <body>
+        <header>
+            <img class="logo" src="2.1logo.jpg" alt="Logo Encriptador">
+        </header>
+        <main>
+            <section>
+                <textarea class="in-put" id="inputText" placeholder="Ingrese el texto aqui."></textarea>
+                <div>
+                    <h6 class="informacion">Solo letras minusculas y sin acentos.</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptador" value="desencriptar!" id="btn-enp" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptador" value="desencriptar!" id="btn-dnp" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <textarea class="mensaje" type="text"></textarea>
+                    <button class="copiar" id="btn-copy" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+            </section>
+        </main>
+        <footer class="footer2">
+            <img src="Frame 6.png" alt="Logo Pie de Página">
+            <p class="copyright">&copyCopyright Lizz Challenge Alura Latam</p>
+        </footer>
+        <script src="script.js"></script>  
+        
+     </body>
+</html>
+
+

@@ -1,0 +1,105 @@
+*{
+    font-size: 16px;
+    font-weight: 400%;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+body{
+    background: url(Seglogo.jpg);
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+}
+.logo{
+    margin-left: 15px;
+    width: 100px;
+    display: flex;
+}
+main{
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    height: 100%;
+}
+.in-put{
+    padding-left: 10px;
+    height: 250px;
+    width: 500px;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-top: 10px;
+    text-transform: lowercase; 
+}
+ ::placeholder (color:#000000;)
+   .in-put:focus{              
+    outline: none;
+   }
+   .informacion{
+    margin-top: 15px;
+   }
+   .mensaje{
+    background: whitesmoke;
+    background-image: url("1.2muñeco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 200px;
+    margin-top: 2px;
+    position: fixed;
+    height: 390px;
+    width: 300px;
+    text-transform: lowercase;
+   }
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    position: fixed;
+    display: flex;
+}
+.btn-encriptador{
+    background: rgb(177, 97, 157);
+    border: 1px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 47px;
+    margin-right: 30px;
+    width: 180px;
+}
+.btn-desencriptador{
+    background: rgb(177, 97, 157);
+    border: 1px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 47px;
+    width: 180px;
+}
+.copiar{
+    border: 1px solid #000;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 47px;
+    margin-left: 270px;
+    margin-top: 340px;
+    position: absolute;
+    width: 180px;
+}
+footer{
+    background: url(footer1.3.png);
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+.copyright{
+    color: black;
+    font-size: 16px;
+    margin: 15px;
+    width: 100%;
+}
